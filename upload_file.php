@@ -10,9 +10,9 @@
       $dir = 'x/'; //Diretório para uploads
  
       if (move_uploaded_file($_FILES['arquivo']['tmp_name'], $dir.$new_name)){
-		print "Arquivo enviado";
+		print "Arquivo enviado!";
 		}else{
-		print "Arquivo não enviado";
+		print "Arquivo não enviado!";
 		}
    }
 
